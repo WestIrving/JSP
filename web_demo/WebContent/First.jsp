@@ -14,7 +14,7 @@
 	String [] a=new String[10];
 	String s=new String("abc");
 	List list=new ArrayList();
-	list.add("sss");
+	list.add("aaaaaa");
 	class B{
 		//内部内
 	}
@@ -24,7 +24,7 @@
 	}
 	A c=new A();
 	int flag=c.getA(); //利用倒包来调用方法
-	out.print(flag);
+	out.print(list);
 %>
 <% //第二个小脚本  %>
 <%! 

@@ -9,10 +9,10 @@
 </head>
 <body bgcolor="#EFC61C">
 	<ul>
-		<li><a href="emp/emp.jsp">查看员工信息</a></li>
-		<li>查看员工信息</li>
-		<li>查看员工信息</li>
-		<li>查看员工信息</li>
+		<li><a href="emp.jsp">查看员工信息</a></li>
+		<li><a href="addemp.jsp">增加员工信息</a></li>
+		<li><a href="Delemp.jsp">删除员工信息</a></li>
+		<li><a href="Setemp.jsp">修改员工信息</a></li>
 	</ul>
 </body>
 </html>

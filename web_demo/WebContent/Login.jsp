@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String message=(String)request.getAttribute("message");
+%>
 <%-- <%@ include file="First.jsp" %> --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -8,7 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="checkLogin.jsp" method="get">
+	<form action="checkLogin.jsp" method="post">
 		<table align="center" border="1" cellpadding="0">
 			<tr>
 				<td>用户名 :<input type="text" name="username"></td>
@@ -24,5 +27,8 @@
 			</tr>
 		</table>
 	</form>
+	<% if(message!=null){%>
+	<%=message %>
+	<%} %>
 </body>
 </html>
