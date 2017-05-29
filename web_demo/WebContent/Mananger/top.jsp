@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body bgcolor="#50BDFB">
-	西安邮电大学XXX管理系统
+	西安邮电大学XXX管理系统                               欢迎<%=session.getAttribute("username") %>同学
+	当前访问量为:<%=application.getAttribute("count") %>个
 </body>
 </html>

@@ -14,18 +14,40 @@
 	}
 </style>
 <body bgcolor="#EFC61C">
-	<div >
-		<ul class="u1">
-			<li>员工编号<input type="text" ></li>
-			<li>员工姓名<input type="text" ></li>
-			<li>员工工作<input type="text" ></li>
-			<li>经理编号<input type="text" ></li>
-			<li>入职如期<input type="text" ></li>
-			<li>员工工资<input type="text" ></li>
-			<li>员工奖金<input type="text" ></li>
-			<li>员工编号<input type="text" ></li>
-			<a href="addcode.jsp"><input type="button" value="增加" ></a>
-		</ul>
-	</div>
+<form action="addcode.jsp" method="post">
+		<table align="center" border="1" cellpadding="0">
+			<tr>
+				<td>员工编号<li><input type="text" name="empno"></li></td>
+			</tr>
+			<tr>
+				<td>员工姓名<li><input type="text" name="ename"></li></td>
+			</tr>
+			<tr>
+				<td>员工工作<li><input type="text" name="job"></li></td>
+			</tr>
+			<tr>
+				<td>经理编号<li><input type="text" name="mgr"></li></td>
+			</tr>
+			<tr>
+				<td>入职如期<li><input type="text" name="hiredate"></li></td>
+			</tr>
+			<tr>
+				<td>员工工资<li><input type="text" name="sal"></li></td>
+			</tr>
+			<tr>
+				<td>员工奖金<li><input type="text" name="comm"></li></td>
+			</tr>
+			<tr>
+				<td>部门编号<li><input type="text" name="deptno"></li></td>
+			</tr>
+			<tr>
+				<td> <input type="submit" values="添加"></td>
+			</tr>
+			<tr>
+				<td><input type="reset" values="重置"></td>
+			</tr>
+		</table>
+	</form>
+	
 </body>
 </html>

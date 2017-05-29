@@ -32,7 +32,7 @@ public class empdisplay extends DataBase{
 						map.put("empno", rs.getInt("empno"));
 						map.put("ename", rs.getString("ename"));
 						map.put("hiredate", rs.getDate("hiredate"));
-						map.put("sal", rs.getInt("sal"));
+						map.put("deptno", rs.getInt("deptno"));
 						//将map存入list中
 						list.add(map);
 					}
